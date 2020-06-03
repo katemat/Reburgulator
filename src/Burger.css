@@ -1,0 +1,129 @@
+.burger-wrapper {
+  width: 600px;
+  height: 100vh;
+  margin: auto;
+}
+  
+.tomato {
+  height: 35px;
+  width: 430px;
+  background:  linear-gradient(to right, rgba(247, 65, 19, 0.7), rgba(247, 51, 3, 0.9));
+  border-radius: 5px;
+  margin: 0.5px auto;
+}
+
+.cheese {
+  height: 25px;
+  width: 470px;
+  background:  linear-gradient(to right, rgba(252, 216, 12, 0.6), rgba(250, 234, 3, 0.966));
+  border-radius: 8px;
+  margin: 0.5px auto;
+}
+
+.patty {
+  height: 50px;
+  width: 460px;
+  background-color: rgb(119, 25, 25);
+  border-radius: 10px;
+  margin: 0.5px auto;
+}
+
+.top-bun, .bottom-bun {
+  width: 450px;
+  background: linear-gradient(rgb(188, 88, 30, 0.9), rgb(230, 116, 50, 0.9));
+  box-shadow: inset -20px 0 #c25a15;
+  margin: 0.5px auto;
+}
+
+.top-bun {
+  height: 120px;
+  border-radius: 50% 50% 5% 5%;
+}
+
+.bottom-bun {
+  height: 80px;
+  border-radius: 5px 5px 30px 30px;
+  box-shadow: 5px 10px 30px rgb(244, 184, 56);
+}
+
+.salad {
+  width: 480px;
+  height: 20px;
+  background: linear-gradient(#1e8518, #8bc94a);
+  border-radius: 8px;
+  margin: 0.5px auto;
+}
+
+.seed {
+  position: relative;
+  left: 10%;
+  top: 30%;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset -3px 4px burlywood;
+  transform: rotate(60deg);
+}
+.seed:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: -80px;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset -3px -2px burlywood;
+  transform: rotate(-120deg);
+}
+
+.seed:before {
+  content: "";
+  position: absolute;
+  left: 80px;
+  top: -165px;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset -3px 4px burlywood;
+  transform: rotate(-80deg);
+}
+.seed2 {
+  position: relative;
+  left: 180px;
+  top: 20px;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset -3px 4px burlywood;
+  transform: rotate(40deg);
+}
+
+.seed2:after {
+  content: "";
+  position: absolute;
+  left: 90px;
+  top: -110px;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset 4px -4px burlywood;
+  transform: rotate(-150deg);
+}
+
+.seed2:before {
+  content: "";
+  position: absolute;
+  left: 160px;
+  top: -120px;
+  background: beige;
+  width: 10px;
+  height: 30px;
+  border-radius: 40%;
+  box-shadow: inset -3px 4px burlywood;
+  transform: rotate(70deg);
+}
